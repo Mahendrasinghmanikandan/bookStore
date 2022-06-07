@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+/* eslint-disable jsx-a11y/alt-text */
+import React from "react";
+import Navbar from "./components/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Home from "./stories/Home";
+import Chapter from "./stories/chapter";
+import { BackTop, Tooltip } from "antd";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Home />
+            </>
+          }
+        />
+        <Route path="/Chapter/:id" element={<Chapter />} />
+      </Routes>
+      <Tooltip title="back to top">
+        <BackTop>
+          <div>
+            <img
+              width="70px"
+              height="50px"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/cd1c9a80364113.5cdec491b07d9.gif"
+            />
+          </div>
+        </BackTop>
+      </Tooltip>
     </div>
   );
-}
+};
 
 export default App;

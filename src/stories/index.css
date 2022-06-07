@@ -1,0 +1,102 @@
+* {
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.chapter-column {
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+}
+.row {
+  margin: 6 5px;
+}
+.chapter-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: start;
+  background-color: #f1f1f1;
+  width: 100%;
+  
+}
+.chapter-card:hover{
+    background: linear-gradient(
+    to bottom,
+    rgb(103, 219, 232),rgb(155, 225, 111)
+  ) !important;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: start;
+  height: 500px;
+  overflow: hidden;
+}
+.cards{
+  font-size: 60px;
+  background:linear-gradient(to right,rgb(186, 200, 186),rgb(169, 199, 104),rgb(41, 162, 171));
+  margin:0px;
+  text-align: center;
+  color:white;
+  font-family: "times", "Helvetica Neue", Helvetica, Arial,;
+}
+.card:hover{
+    background: linear-gradient(
+    to bottom,
+    rgb(103, 219, 232),rgb(155, 225, 111)
+  ) !important;
+}
+.story-pic {
+  width: 100% !important;
+  height: 200px;
+  text-align: justify;
+  font-size: 14px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.short {
+  font-size: 14px;
+  text-align: justify;
+  color:#000;
+}
+.chapter-story-pic {
+  font-size: 20px;
+  text-align: justify;
+  font-family: Roboto,Arial,sans-serif;
+  letter-spacing:2px;
+  
+}
+.big-story-pic {
+  width: 100%;
+}
+.chapter-title-chap {
+  color: black !important;
+
+}
+@media all and (orientation: portrait) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .story-pic {
+    width: 100% !important;
+    height: 200px;
+    text-align: justify;
+    font-size: 14px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 14px;
+    text-align: start;
+    background-color: white;
+    height: 500px;
+    overflow: hidden;
+  }
+}
