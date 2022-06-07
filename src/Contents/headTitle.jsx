@@ -2,6 +2,7 @@
 const headTitle = [
   {
     id: 1,
+    views: "20K",
     image:
       "https://learnenglish-new.com/wp-content/uploads/2020/12/Easy-English-short-stories-pdf-CHAPTER-1-%E2%80%93-FAMILY-768x449.png",
     title: "Robinson Crusoe",
@@ -195,6 +196,7 @@ const headTitle = [
   },
   {
     id: 2,
+    views: "10K",
     image:
       "https://verilymag.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTQ1Mjk4NjkwNDczNDY5NDA5/the-little-prince.jpg",
     title: "The Little Prince",
@@ -382,6 +384,7 @@ const headTitle = [
 
   {
     id: 3,
+    views: "50K",
     image:
       "https://learnenglish-new.com/wp-content/uploads/2021/09/Rich-Man-Poor-Man.png",
     title: "Rich Man Poor Man",
@@ -700,6 +703,7 @@ const headTitle = [
   },
   {
     id: 4,
+    views: "7K",
     image:
       "https://learnenglish-new.com/wp-content/uploads/2021/10/English-love-story-Lost-love..jpg",
     title: "Lost Love",
@@ -799,6 +803,7 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
   },
   {
     id: 8,
+    views: "40K",
     image: "https://i.ytimg.com/vi/jjHgUn59MZE/maxresdefault.jpg",
     title: "சாகாத வரம்",
     shorts: `வையாபுரி பட்டினம் என்ற நகரம் கடற்கரை ஓரத்தில் அமைந்திருந்தது.
@@ -936,6 +941,7 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
   },
   {
     id: 9,
+    views: "20K",
     image:
       "https://4.bp.blogspot.com/-qt4RjLlyehE/UgkqjExOE9I/AAAAAAAAIc0/hJ7RaDhZNDk/s1600/Mulla-nasruddin-duck-soup.jpg",
     title: "மீன் பிடித்த முல்லா",
@@ -973,6 +979,7 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
   },
   {
     id: 5,
+    views: "20K",
     image:
       "https://learnenglish-new.com/wp-content/uploads/2021/10/Love-story-book-pdf-in-english-The-Girl-with-Red-Hair.-3.png",
     title: "The Girl With Red Hair",
@@ -1149,6 +1156,7 @@ I don’t really want to go, but I don’t want to stay at home and do nothing. 
   },
   {
     id: 6,
+    views: "80K",
     image:
       "https://learnenglish-new.com/wp-content/uploads/2021/10/The-Fisherman-and-His-Soul-Books-For-Elementary-Levels.png",
     title: "The Fisherman and His Soul",
@@ -1299,6 +1307,7 @@ There was a man near a rock. He wore elegant Spanish clothes. This man watched t
   },
   {
     id: 7,
+    views: "70K",
     image: "https://thelogicalindian.com/h-upload/2020/01/27/149287-15.jpeg",
     title: "பெரிய சோம்பேறி யார் ?",
     shorts: `முன்னொரு காலத்தில் ஒரு நாட்டை வேடிக்கையான அரசன் ஒருவன் ஆண்டு வந்தான். மற்றவர்கள் என்ன செய்கிறார்களோ அதற்கு எதிராக செய்வதே அவன் வழக்கமாக இருந்தது.`,

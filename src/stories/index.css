@@ -79,6 +79,13 @@
   color: black !important;
 
 }
+.card-botton{
+  text-align: center;
+  margin: 5px;
+  float: right;
+  border-radius:4px;
+}
+
 @media all and (orientation: portrait) {
   .column {
     width: 100%;

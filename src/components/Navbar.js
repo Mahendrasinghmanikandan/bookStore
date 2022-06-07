@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-
+import { motion } from "framer-motion";
 import { Carousel } from "antd";
 
 const Navbar = () => {
@@ -10,13 +10,18 @@ const Navbar = () => {
     <>
       <>
         <Carousel className="Carousel" effect="fade">
-          <div>
+          <motion.div
+            whileHover={{
+              scale: 0.44,
+              transition: { duration: 1 },
+            }}
+          >
             <h1 className="hero-section">
               A reader lives a thousand lives before he dies...
               <br />
               The man who never reads lives only one.
             </h1>
-          </div>
+          </motion.div>
         </Carousel>
         <nav className="main-nav">
           <div>
