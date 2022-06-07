@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bookswala/static/css/main.073c9b0a.css",
+    "main.js": "/bookswala/static/js/main.0f90c3b6.js",
+    "static/js/787.5c486702.chunk.js": "/bookswala/static/js/787.5c486702.chunk.js",
+    "static/media/logo.svg": "/bookswala/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bookswala/index.html",
+    "main.073c9b0a.css.map": "/bookswala/static/css/main.073c9b0a.css.map",
+    "main.0f90c3b6.js.map": "/bookswala/static/js/main.0f90c3b6.js.map",
+    "787.5c486702.chunk.js.map": "/bookswala/static/js/787.5c486702.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0f90c3b6.js"
+  ]
+}
