@@ -24,20 +24,18 @@ const Navbar = () => {
           </motion.div>
         </Carousel>
         <nav className="main-nav">
-          <div>
+          <motion.div
+            whileHover={{
+              scale: 15,
+              transition: { duration: 2 },
+            }}
+          >
             <img
-              // style={{ position: "fixed" }}
               width="70px"
               height="70px"
               src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/cd1c9a80364113.5cdec491b07d9.gif"
             ></img>
-          </div>
-          <div className="social-media">
-            {/* hamburget menu start  */}
-            <div className="hamburger-menu">
-              <GiHamburgerMenu />
-            </div>
-          </div>
+          </motion.div>
         </nav>
         <div></div>
       </>

@@ -702,6 +702,83 @@ const headTitle = [
     ],
   },
   {
+    id: 10,
+    views: "40K",
+    image:
+      "https://momlovesbest.com/wp-content/uploads/2019/11/The-Boy-Who-Cried-Wolf.jpg",
+    title: "The Boy Who Cried Wolf",
+    shorts: (
+      <p>
+        <h3>The Moral</h3>
+        Lying breaks trust — even if you’re telling the truth, no one believes a
+        liar.
+        <br />
+        <br />
+        Once, there was a boy who became bored when he watched over the village
+        sheep grazing on the hillside.
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "The Boy Who Cried Wolf",
+        stories: (
+          <p>
+            <img
+              src="https://momlovesbest.com/wp-content/uploads/2019/11/The-Boy-Who-Cried-Wolf.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            <br />
+            <br />
+            Once, there was a boy who became bored when he watched over the
+            village sheep grazing on the hillside. To entertain himself, he sang
+            out, “Wolf! Wolf! The wolf is chasing the sheep!”
+            <br />
+            <br />
+            When the villagers heard the cry, they came running up the hill to
+            drive the wolf away. But, when they arrived, they saw no wolf. The
+            boy was amused when seeing their angry faces.
+            <br />
+            <br />
+            “Don’t scream wolf, boy,” warned the villagers, “when there is no
+            wolf!” They angrily went back down the hill.
+            <br />
+            <br />
+            Later, the shepherd boy cried out once again, “Wolf! Wolf! The wolf
+            is chasing the sheep!” To his amusement, he looked on as the
+            villagers came running up the hill to scare the wolf away.
+            <br />
+            <br />
+            As they saw there was no wolf, they said strictly, “Save your
+            frightened cry for when there really is a wolf! Don’t cry ‘wolf’
+            when there is no wolf!” But the boy grinned at their words while
+            they walked grumbling down the hill once more.
+            <br />
+            <br />
+            Later, the boy saw a real wolf sneaking around his flock. Alarmed,
+            he jumped on his feet and cried out as loud as he could, “Wolf!
+            Wolf!” But the villagers thought he was fooling them again, and so
+            they didn’t come to help.
+            <br />
+            <br />
+            At sunset, the villagers went looking for the boy who hadn’t
+            returned with their sheep. When they went up the hill, they found
+            him weeping.
+            <br />
+            <br />
+            “There really was a wolf here! The flock is gone! I cried out,
+            ‘Wolf!’ but you didn’t come,” he wailed.
+            <br />
+            <br />
+            An old man went to comfort the boy. As he put his arm around him, he
+            said, “Nobody believes a liar, even when he is telling the truth!”
+          </p>
+        ),
+      },
+    ],
+  },
+  {
     id: 4,
     views: "7K",
     image:
@@ -802,15 +879,71 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
     ],
   },
   {
+    id: 11,
+    views: "40K",
+    image:
+      "https://momlovesbest.com/wp-content/uploads/2020/07/The-Golden-Touch.jpg",
+    title: "The Golden Touch",
+    shorts: (
+      <p>
+        <h3>The Moral</h3>
+        Greed will always lead to downfall.
+        <br />
+        <br />
+        There once was a king named Midas who did a good deed for a Satyr. And
+        he was then granted a wish by Dionysus, the god of wine.
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "The Golden Touch",
+        stories: (
+          <p>
+            <img
+              src="https://momlovesbest.com/wp-content/uploads/2020/07/The-Golden-Touch.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            <br />
+            <br />
+            There once was a king named Midas who did a good deed for a Satyr.
+            And he was then granted a wish by Dionysus, the god of wine.
+            <br />
+            <br />
+            For his wish, Midas asked that whatever he touched would turn to
+            gold. Despite Dionysus’ efforts to prevent it, Midas pleaded that
+            this was a fantastic wish, and so, it was bestowed.
+            <br />
+            <br />
+            Excited about his newly-earned powers, Midas started touching all
+            kinds of things, turning each item into pure gold.
+            <br />
+            <br />
+            But soon, Midas became hungry. As he picked up a piece of food, he
+            found he couldn’t eat it. It had turned to gold in his hand.
+            <br />
+            <br />
+            Hungry, Midas groaned, “I’ll starve! Perhaps this was not such an
+            excellent wish after all!”
+            <br />
+            <br />
+            Seeing his dismay, Midas’ beloved daughter threw her arms around him
+            to comfort him, and she, too, turned to gold. “The golden touch is
+            no blessing,” Midas cried.
+          </p>
+        ),
+      },
+    ],
+  },
+  {
     id: 8,
     views: "40K",
     image: "https://i.ytimg.com/vi/jjHgUn59MZE/maxresdefault.jpg",
     title: "சாகாத வரம்",
     shorts: `வையாபுரி பட்டினம் என்ற நகரம் கடற்கரை ஓரத்தில் அமைந்திருந்தது.
 
-வையாபுரி பட்டினத்தில் முத்து வியாபாரி மாணிக்கத்தை தெரியாதவர் இருக்கமுடியாது. மாணிக்கத்தின் வீடு அரண்மனையைப் போல் விசாலமாக இருக்கும்.
-
-முத்து வியாபாரி மாணிக்கத்திற்கு முத்து, ரத்தினம், வைரம் என்று மூன்று மகன்கள்.`,
+வையாபுரி பட்டினத்தில் முத்து வியாபாரி மாணிக்கத்தை தெரியாதவர் இருக்கமுடியாது. `,
     chapter: [
       {
         id: 1,
@@ -947,33 +1080,289 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
     title: "மீன் பிடித்த முல்லா",
     shorts: `முல்லா வசித்த ஊரில் நெடுநாட்களாக நீதிபதி யாரையும் மன்னர் நியமிக்கவில்லை. மக்கள் இது குறித்து மன்னரிடம் முறையிட்டனர்.
 
-” தற்பெருமை சற்றும் இல்லாத அடக்கமான ஒருவரை உங்கள் ஊரில் நீதிபதியாக நியமிக்க எண்ணியிருக்கிறேன். இதுவரை அத்தகைய தகுதி படைத்தவர் என் கண்களில் படவில்லை . அதனால் தான் உங்கள் ஊரில் நீதிபதியாக யாரையும் நியமிக்கவில்லை” என்றார் மன்னர்.
-
-இந்தச் செய்தியை முல்லா அறிந்தார்.`,
+” தற்பெருமை சற்றும் இல்லாத அடக்கமான ஒருவரை உங்கள் ஊரில் நீதிபதியாக நியமிக்க எண்ணியிருக்கிறேன்..`,
     chapter: [
       {
         id: 1,
         title: "மீன் பிடித்த முல்லா",
-        stories: `முல்லா வசித்த ஊரில் நெடுநாட்களாக நீதிபதி யாரையும் மன்னர் நியமிக்கவில்லை. மக்கள் இது குறித்து மன்னரிடம் முறையிட்டனர்.
-
-” தற்பெருமை சற்றும் இல்லாத அடக்கமான ஒருவரை உங்கள் ஊரில் நீதிபதியாக நியமிக்க எண்ணியிருக்கிறேன். இதுவரை அத்தகைய தகுதி படைத்தவர் என் கண்களில் படவில்லை . அதனால் தான் உங்கள் ஊரில் நீதிபதியாக யாரையும் நியமிக்கவில்லை” என்றார் மன்னர்.
-
-இந்தச் செய்தியை முல்லா அறிந்தார்.
-ஒரு நாள் காலையில் முல்லா ஒரு பழைய மீன் பிடிக்கும் வலையை உடலில் போர்த்தியவாறு அரண்மனைப் பக்கமாக நடமாடிக் கொண்டிருந்தார்.
-
-அரண்மனை உப்பரிகையில் உலாவிக் கொண்டிருந்த மன்னர் முல்லா மீன் வலையை போர்த்திக் கொண்டு உலாவுவது கண்டு ஆச்சரியமடைந்தார். தனது பணியாளன் ஒருவனை அனுப்பி முல்லாவை அழைத்து வரச் சொன்னார்.” முல்லா நீர் ஏன் இப்படி மீன் வலையைப் போர்த்திக் கொண்டு உலாவுகிறீர்?” என்று வினவினார்.
-
-” மன்னர் அவர்களே, நான் ஆதி நாளில் மீன் பிடிக்கும் தொழிலைத்தான் செய்து கொண்டிருந்தேன். நான் என்னதான் முல்லா ஆகிவிட்டாலும் பழைய தொழிலை மறக்கலாமா? எந்தத் தொழிலையும் கேவலமாகச் கருதக் கூடாது என்பதற்காக மறுபடியும் மீன் பிடிக்கப் போகிறேன் ” என்றார் முல்லா.
-
-இத்தனைக் காலமாகத் தாம் எதிர்பார்த்த அடக்கமான மனிதர் முல்லாதான் என்று மன்னருக்குத் தோன்றியது.
-
-அதனால் அவரையே மன்னர் நீதிபதியாக நியமித்தார்.
-
-சில நாட்கள் சென்ற பிறகு தெரு வழியாகச் சென்று கொண்டிருந்த முல்லாவை அரண்மனை உப்பரிகையிலிருந்து மன்னர் கண்டார். அவரிடம் மீன் வலை இல்லாததை அவர் கவனித்தார்.
-
-” என்ன முல்லா மீன் வலையைக் காணோம் ” என்று மன்னர் கேட்டார்.
-
-” மன்னர் பெருமானே, மீனைப் பிடித்து விட்ட பிறகு வலை எதற்கு” என்றார் முல்லா. முல்லா மீன் என்று குறிப்பிட்டது நீதிபதி பதவியை.மன்னர் அதைப் புரிந்து கொள்ளவில்லை.`,
+        stories: (
+          <p>
+            முல்லா வசித்த ஊரில் நெடுநாட்களாக நீதிபதி யாரையும் மன்னர்
+            நியமிக்கவில்லை. மக்கள் இது குறித்து மன்னரிடம் முறையிட்டனர்.
+            <br />
+            <br />
+            ” தற்பெருமை சற்றும் இல்லாத அடக்கமான ஒருவரை உங்கள் ஊரில் நீதிபதியாக
+            நியமிக்க எண்ணியிருக்கிறேன். இதுவரை அத்தகைய தகுதி படைத்தவர் என்
+            கண்களில் படவில்லை . அதனால் தான் உங்கள் ஊரில் நீதிபதியாக யாரையும்
+            நியமிக்கவில்லை” என்றார் மன்னர்.
+            <br />
+            <br />
+            இந்தச் செய்தியை முல்லா அறிந்தார். ஒரு நாள் காலையில் முல்லா ஒரு பழைய
+            மீன் பிடிக்கும் வலையை உடலில் போர்த்தியவாறு அரண்மனைப் பக்கமாக
+            நடமாடிக் கொண்டிருந்தார்.
+            <br />
+            <br />
+            அரண்மனை உப்பரிகையில் உலாவிக் கொண்டிருந்த மன்னர் முல்லா மீன் வலையை
+            போர்த்திக் கொண்டு உலாவுவது கண்டு ஆச்சரியமடைந்தார். தனது பணியாளன்
+            ஒருவனை அனுப்பி முல்லாவை அழைத்து வரச் சொன்னார்.” முல்லா நீர் ஏன்
+            இப்படி மீன் வலையைப் போர்த்திக் கொண்டு உலாவுகிறீர்?” என்று வினவினார்.
+            <br />
+            <br />
+            ” மன்னர் அவர்களே, நான் ஆதி நாளில் மீன் பிடிக்கும் தொழிலைத்தான்
+            செய்து கொண்டிருந்தேன். நான் என்னதான் முல்லா ஆகிவிட்டாலும் பழைய
+            தொழிலை மறக்கலாமா? எந்தத் தொழிலையும் கேவலமாகச் கருதக் கூடாது
+            என்பதற்காக மறுபடியும் மீன் பிடிக்கப் போகிறேன் ” என்றார் முல்லா.
+            <br />
+            <br />
+            இத்தனைக் காலமாகத் தாம் எதிர்பார்த்த அடக்கமான மனிதர் முல்லாதான் என்று
+            மன்னருக்குத் தோன்றியது.
+            <br />
+            <br />
+            அதனால் அவரையே மன்னர் நீதிபதியாக நியமித்தார்.
+            <br />
+            <br />
+            சில நாட்கள் சென்ற பிறகு தெரு வழியாகச் சென்று கொண்டிருந்த முல்லாவை
+            அரண்மனை உப்பரிகையிலிருந்து மன்னர் கண்டார். அவரிடம் மீன் வலை இல்லாததை
+            அவர் கவனித்தார்.
+            <br />
+            <br />
+            ” என்ன முல்லா மீன் வலையைக் காணோம் ” என்று மன்னர் கேட்டார்.
+            <br />
+            <br />” மன்னர் பெருமானே, மீனைப் பிடித்து விட்ட பிறகு வலை எதற்கு”
+            என்றார் முல்லா. முல்லா மீன் என்று குறிப்பிட்டது நீதிபதி
+            பதவியை.மன்னர் அதைப் புரிந்து கொள்ளவில்லை.
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    id: 7,
+    views: "70K",
+    image: "https://thelogicalindian.com/h-upload/2020/01/27/149287-15.jpeg",
+    title: "பெரிய சோம்பேறி யார் ?",
+    shorts: `முன்னொரு காலத்தில் ஒரு நாட்டை வேடிக்கையான அரசன் ஒருவன் ஆண்டு வந்தான். மற்றவர்கள் என்ன செய்கிறார்களோ அதற்கு எதிராக செய்வதே அவன் வழக்கமாக இருந்தது.`,
+    chapter: [
+      {
+        id: 1,
+        title: "பெரிய சோம்பேறி யார் ?",
+        stories: (
+          <p>
+            முன்னொரு காலத்தில் ஒரு நாட்டை வேடிக்கையான அரசன் ஒருவன் ஆண்டு
+            வந்தான். மற்றவர்கள் என்ன செய்கிறார்களோ அதற்கு எதிராக செய்வதே அவன்
+            வழக்கமாக இருந்தது.
+            <br />
+            <br />
+            மற்றவர்கள் தாடையில் தாடி வைத்திருப்பதைப் பார்த்தான் அவன். உடனே அவன்
+            தன் புருவத்தில் தாடி வளர்க்கத் தொடங்கினான். அதுவும் நீண்டு வளர்ந்து
+            கழுத்து வரை தொங்கியது. குளிர்காலத்தில் சட்டையே இல்லாமல் உலாவுவான்.
+            கோடை காலத்தில் ஒன்றுக்கு மேல் ஒன்றாகப் பல சட்டைகளை அணிந்து கொள்வான்.
+            காலில் அணிய வேண்டிய உடைகளை உடம்புக்கு அணிந்து கொள்வான். உடம்புக்கு
+            அணியும் உடைகளைக் காலுக்கு அணிந்து கொள்வான். முன்புறம் அணிய
+            வேண்டியதைப் பின்புறமாக அணிந்து கொள்வான். பின்புறம் அணிய வேண்டியதை
+            முன்புறம் அணிந்து கொள்வான். எப்பொழுதும் பின்பக்கமாக நடப்பானே தவிர
+            முன்பக்கமாக நடக்க மாட்டான். இரவு முழுவதும் விழித்து இருப்பான். பகல்
+            முழுவதும் தூங்குவான்.
+            <br />
+            <br />
+            அவனுக்கு ஒரே ஒரு மகள் இருந்தாள். தன் மகளுக்குத் திருமணம் செய்ய
+            நினைத்தான் அவன். அமைச்சர்கள் ஐந்து பேரையும் அரசவைக்கு வரவழைத்தான்.
+            இளவரசிக்குத் திருமணம் செய்ய எண்ணி உள்ளேன். மற்ற அரசர்கள்
+            விரும்புவதைப் போல எனக்கு மருமகனாக வீரன் வேண்டாம். அறிவுள்ளவன்
+            வேண்டாம். நல்ல பண்புள்ளவன் வேண்டாம். அழகானவனும் வேண்டாம், என்றான்
+            அரசன். இதைக் கேட்ட அமைச்சர்கள் திகைப்பு அடைந்தனர்.
+            <br />
+            <br />
+            இளவரசியார்க்கு யார் கணவனாக வர வேண்டும் என்று விரும்புகிறீர்கள்?
+            என்று கேட்டார் ஓர் அமைச்சர்.சோம்பேறியான ஒருவன் தான் எனக்கு மருமகனாக
+            வர வேண்டும். மிகப் பெரிய சோம்பேறியைத் தேடும் வேலையை உங்களிடம்
+            ஒப்படைக்கப் போகிறேன். அதற்காகத்தான் உங்களை வரவழைத்தேன், என்றான்
+            அரசன்.
+            <br />
+            <br />
+            நாங்கள் என்ன செய்ய வேண்டும்? அரசே! என்று கேட்டார் இன்னொரு அமைச்சர்.
+            உங்க ஒவ்வொருவருக்கும் ஓராண்டு தவணை தருகிறேன். நீங்கள் பல
+            நாடுகளுக்கும் சென்று சிறந்த சோம்பேறியைக் கண்டுபிடிக்க வேண்டும்.
+            தேவையான பணத்தை கருவூலத்தில் பெற்றுக் கொள்ளுங்கள், என்றான் அரசன்.
+            ஐந்து அமைச்சர்களும் அரசனிடம் விடைபெற்றுப் புறப்பட்டார்கள். ஐவரும்
+            வெவ்வேறு திரைகளில் பிரிந்தார்கள்.
+            <br />
+            <br />
+            ஓராண்டு கழிந்தது. ஐந்து அமைச்சர்களும் நாடு திரும்பினார்கள். அவர்களை
+            வரவேற்றான் அரசன்.
+            <br />
+            <br />
+            முதலாம் அமைச்சனைப் பார்த்து, உம் அனுபவங்களைச் சொல்லும். எனக்கு
+            மருமகனாகும் சோம்பேறியை எங்கே கண்டுபிடித்தீர்? சொல்லும், என்று
+            ஆர்வத்துடன் கேட்டான் அவன்.
+            <br />
+            <br />
+            அரசே! நான் பல நாடுகளுக்குச் சென்றேன். எத்தனையோ விந்தையான அனுபவங்கள்
+            எனக்கு ஏற்பட்டன. இருந்தும் சோம்பேறிகளைத் தேடி அலைந்தேன். எத்தனையோ
+            சோம்பேறிகளைச் சந்தித்தேன். யாருமே நம் இளவரசியார்க்குப்
+            பொருத்தமானவராகத் தெரியவில்லை. பெரிய சோம்பேறியைச் சந்திக்கும் பேறு
+            பெற்றேன். என்றான் அமைச்சன். அவன் என்ன செய்தான்? என்று கேட்டான்
+            அரசன்.
+            <br />
+            <br />
+            அந்தச் சோம்பேறியை வழியில் சந்தித்தேன். அரசே! அவனுடைய ஒரு கால்
+            சேற்றிலும் மற்றொரு கால் சாலையிலும் இருந்தது. அப்படியே நின்று
+            கொண்டிருந்தான். நான் அவனைப் பார்த்து, ஏன் இப்படி நிற்கிறாய்? என்று
+            கேட்டேன். இரண்டு மாதமாக நான் இப்படித்தான் நின்று கொண்டிருக்கிறேன்.
+            சேற்றில் உள்ள காலை எடுக்க எனக்குச் சோம்பலாக உள்ளது, என்று பதில்
+            தந்தான் அவன், என்றான் அமைச்சன்.இளவரசிக்குப் பொருத்தமான பெரிய
+            சோம்பேறி தான் அவன், என்று மகிழ்ச்சியாகச் சொன்னான் அரசன்.
+            <br />
+            <br />
+            குறுக்கிட்ட இரண்டாம் அமைச்சன், அரசே! நானும் ஒரு சோம்பேறியைப்
+            பார்த்துவிட்டு வந்திருக்கிறேன், என்றான். உன் அனுபவங்களைச் சொல்,
+            என்றான் அரசன்.
+            <br />
+            <br />
+            அரசே! உங்கள் கட்டளையை நிறைவேற்றுவதற்காகப் பல மலைகளையும் ஆறுகளையும்
+            கடந்து சென்றேன். ஓர் ஊரில் மிகப் பெரிய சோம்பேறியைக் கண்டேன்.
+            அவனுக்கு மிக நீண்ட தாடி இருந்தது. அந்தத் தாடி ஊர் முழுவதும் பரவிக்
+            கிடந்தது- பார்ப்பதற்கு மேகக் கூட்டம் போல இருந்தது. இரண்டு மீசைகளும்
+            நீண்டு இருந்தன. ஒரு மீசையில் குருவி ஒன்று கூடு கட்டி இருந்தது.
+            இன்னொரு மீசையில் எறும்புப் புற்று வளர்ந்து இருந்தது. நான் அவனைப்
+            பார்த்து, எதற்காக இவ்வளவு நீண்ட தாடியும் மீசையும் வளர்த்து
+            இருக்கிறாய்? என்று கேட்டேன்.
+            <br />
+            <br />
+            சோம்பேறியான அவன் எனக்கு எந்தப் பதிலும் தரவில்லை. அவன் அருகில் முக
+            சவரம் செய்யும் கத்தி துருப்பிடித்துக் கிடந்தது. அங்கிருந்தவர்கள்
+            அவன் முக சவரம் செய்து முப்பது ஆண்டுகளுக்கு மேல் ஆகிறது என்றார்கள்.
+            நல்ல சோம்பேறிதான், என்ற அரசன், அவன் தாடி மீசையைச் சொரிந்து
+            கொள்கிறானா அல்லது அதற்கும் சோம்பலா? என்று கேட்டான். அவன் சில
+            சமயங்களில் தாடி மீசையைச் சொரிந்து கொள்கிறான். அது மட்டும் அல்ல. தன்
+            மீசையில் அமர வரும் காக்கைகளை விரட்டுவதற்காக கூழாங்கற்களை அவற்றின்
+            மேல் எறிகிறான், என்றான்.
+            <br />
+            <br />
+            மூன்றாம் அமைச்சனைப் பார்த்து, நீ பார்த்து வந்த சோம்பேறியைப் பற்றிச்
+            சொல், என்று கேட்டான், அரசன்.
+            <br />
+            <br />
+            அரசே! நானும் பல நாடுகளுக்குச் சென்றேன், ஓர் ஊரில் சோம்பேறி ஒருவனைக்
+            கண்டேன். உங்களுக்கு மருமகனாக மிகவும் பொருத்தம் உடையவன். சோம்பல்
+            காரணமாக கடந்த இருபது ஆண்டுகளாக அவன் வீட்டை விட்டு வெளியே சென்றது
+            இல்லை. நாற்காலியில் அமர்ந்து இருந்தபடியே எல்லோருக்கும் அவன் அறிவுரை
+            வழங்குவான். நான் சென்றிருந்த சமயம் அவன் வீட்டில் தீப்பிடித்துக்
+            கொண்டது. அவன் உடையிலும் தீப்பிடித்துக் கொண்டது. இருந்த இடத்தைவிட்டு
+            அசையவில்லை அவன். வெளியே இருந்தவர்கள் எல்லோரும் கத்தினார்கள். எந்தப்
+            பயனும் இல்லை. வீட்டிற்குள் நுழைந்த சிலர் அவனை அப்படியே வெளியே தூக்கி
+            வந்து காப்பாற்றினார்கள், என்றான்.உண்மையிலேயே இவன் பெரிய
+            சோம்பேறிதான், என்ற அரசன் நான்காம் அமைச்சனைப் பார்த்தான்.
+            <br />
+            <br />
+            அரசே! நான் காடு மலைகளில் அலைந்தேன். முட்புதர்களில் சிக்கி என் உடைகள்
+            கிழிந்து விட்டன. அதுவும் நல்லதற்குத்தான். அதனால்தான் அந்தச்
+            சோம்பேறியைக் காணும் வாய்ப்பு எனக்குக் கிடைத்தது, என்றான் அவன். அவன்
+            என்ன செய்தான்? என்று பரபரப்புடன் கேட்டான் அரசன். அரசே! அவன் தன்
+            வீட்டுத் தோட்டத்தில் ஒரு மரத்தடியில் பதினைந்து
+            ஆண்டுகளாகப்படுத்திருக்கிறான். தன் வாயிற்கு அருகே காரட் முள்ளங்கி
+            ஏதேனும் முளையாதா என்று காத்துக் கொண்டிருக்கிறான். அவன் நெற்றியில்
+            உள்ள சுருக்கத்தில் இரண்டு முள்ளங்கிச் செடிகள் முளைத்துள்ளன. அதைப்
+            பிடுங்கிப் போடக்கூட அவன் தன் கை விரல்களைப் பயன்படுத்தவில்லை.
+            மரத்திலிருந்து அவன் வாயிற்கு நேராக ஏதேனும் பழங்கள் விழுந்தால்
+            உண்பான். பக்கத்தில் விழுந்தால் அதை எடுத்து உண்ண மாட்டான், என்றான்
+            அவன். அந்த வாழ்க்கை அவனுக்குப் பிடித்து இருக்கிறதா? என்று கேட்டான்
+            அரசன்.
+            <br />
+            <br />
+            அவனிடம் நீண்ட நேரம் பேசினேன். அவன் மிகவும் மகிழ்ச்சியாக இருப்பதாகக்
+            கூறினான். தன் மூக்கிலோ அல்லது வாயிலோ பழ மரம் முளைத்தால் எவ்வளவு
+            நன்றாக இருக்கும். பழத்திற்காக நான் வாயைத் திறந்து கொண்டு
+            படுத்திருக்க வேண்டாமே என்றான் அவன், என்று விளக்கமாகச் சொன்னான்,
+            அமைச்சன். நான் கேட்டதிலேயே அற்புதமான சோம்பேறி இவன். என் மகளுக்கு
+            ஏற்றவன், என்ற அரசன் ஐந்தாம் அமைச்சனைப் பார்த்தான்.
+            <br />
+            <br />
+            உடனே அந்த அமைச்சன், அரசே! நான் பார்த்த சோம்பேறியைப் பற்றிச் சொன்னால்
+            உங்கள் கருத்தை மாற்றிக் கொள்வீர்கள். இவனுடைய சோம்பேறித்தனத்திற்கு
+            மற்ற நால்வரும் கால் தூசி பெற மாட்டார்கள், என்றான். நீ பார்த்த
+            சோம்பேறியைப் பற்றிச் சொல், என்றான் அரசன்.
+            <br />
+            <br />
+            அரசே! சோம்பேறியைத் தேடும் முயற்சியில் நான் பலமுறை உயிர் பிழைத்தேன்.
+            ஒரு நாட்டை அடைந்தேன். உலக மகா சோம்பேறி ஒருவனைக் கண்டேன், என்றான்
+            அவன். ஆர்வத்தை அடக்க முடியாத அரசன், அவன் என்ன செய்தான்? என்று
+            பரபரப்புடன் கேட்டான். சிலர் அவன் உயிரோடு இருப்பதாகச் சொன்னார்கள்.
+            சிலர் அவன் இறந்து விட்டதாகச் சொன்னார்கள். சிலர் அவனைத் துறவி
+            என்றார்கள். சிலர் அவனைப் பற்றிக் கருத்து சொல்ல மறுத்தார்கள். நானே
+            சென்று அவனை நேரில் பார்த்தேன். அவனைச் சுற்றிலும் புற்று வளர்ந்து
+            இருந்தது. எழுபது ஆண்டுகளாக அவன் சிறிதுகூட அசையவில்லை. யார்
+            பேச்சையும் கேட்க விரும்பாத அவன் காதுகளில் மெழுகை அடைத்துகூ கொண்டான்.
+            பேச வேண்டி வரும் என்பதால் தன் நாக்கை ஒரு பாறாங்கல்லில் கட்டி
+            இருந்தான். எதையும் அவன் சாப்பிடுவது இல்லை. காற்றை மட்டும்
+            சுவாசித்துக் கொண்டு உயிர் வாழ்கிறான். யாராவது உணவைக் கொண்டு
+            வந்தால்கூட அதைக் கையில் வாங்க அவனுக்குச் சோம்பல். பத்தாண்டுகளுக்கு
+            முன் அவன் தன் உதடுகளைச் சிறிது அசைத்தானாம் அதனால்தான் அவன் உயிரோடு
+            இருப்பது மற்றவர்க்குத் தெரிந்ததாம், என்று நடந்ததைச் சொன்னான் அந்த
+            அமைச்சன்.
+            <br />
+            <br />
+            வியப்பு அடைந்த அரசன், இப்படி ஒரு சோம்பேறியா? அவனே என் மருமகன்.
+            அவனுக்கும் இளவரசிக்கும் விரைவில் திருமணத்திற்கு ஏற்பாடு செய்யுங்கள்,
+            என்று மகிழ்ச்சியுடன் சொன்னான். ஒரு நல்ல நாளில் அந்தச் சோம்பேறிக்கும்
+            இளவரசிக்கும் திருமணம் நடந்தது.
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    id: 12,
+    views: "10K",
+    image:
+      "https://momlovesbest.com/wp-content/uploads/2020/07/The-Fox-and-the-Grapes-scaled.jpg",
+    title: "The Fox And The Grapes",
+    shorts: (
+      <p>
+        <h3>The Moral</h3>
+        Never despise what we can’t have; nothing comes easy.
+        <br />
+        <br />
+        One day, a fox became very hungry as he went to search for some food. He
+        searched high and low, but couldn’t find something that he could eat.
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "The Fox And The Grapes",
+        stories: (
+          <p>
+            <img
+              src="https://momlovesbest.com/wp-content/uploads/2020/07/The-Fox-and-the-Grapes-scaled.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            <br />
+            <br />
+            One day, a fox became very hungry as he went to search for some
+            food. He searched high and low, but couldn’t find something that he
+            could eat.
+            <br />
+            <br />
+            Finally, as his stomach rumbled, he stumbled upon a farmer’s wall.
+            At the top of the wall, he saw the biggest, juiciest grapes he’d
+            ever seen. They had a rich, purple color, telling the fox they were
+            ready to be eaten.
+            <br />
+            <br />
+            To reach the grapes, the fox had to jump high in the air. As he
+            jumped, he opened his mouth to catch the grapes, but he missed. The
+            fox tried again but missed yet again.
+            <br />
+            <br />
+            He tried a few more times but kept failing.
+            <br />
+            <br />
+            Finally, the fox decided it was time to give up and go home. While
+            he walked away, he muttered, “I’m sure the grapes were sour anyway.”
+          </p>
+        ),
       },
     ],
   },
@@ -1306,56 +1695,431 @@ There was a man near a rock. He wore elegant Spanish clothes. This man watched t
     ],
   },
   {
-    id: 7,
-    views: "70K",
-    image: "https://thelogicalindian.com/h-upload/2020/01/27/149287-15.jpeg",
-    title: "பெரிய சோம்பேறி யார் ?",
-    shorts: `முன்னொரு காலத்தில் ஒரு நாட்டை வேடிக்கையான அரசன் ஒருவன் ஆண்டு வந்தான். மற்றவர்கள் என்ன செய்கிறார்களோ அதற்கு எதிராக செய்வதே அவன் வழக்கமாக இருந்தது.`,
+    id: 13,
+    views: "10K",
+    image:
+      "https://momlovesbest.com/wp-content/uploads/2019/11/The-proud-rose.jpg",
+    title: "The Proud Rose",
+    shorts: (
+      <p>
+        <h3>The Moral</h3>
+        Never judge anyone by the way they look.
+        <br />
+        <br />
+        Once upon a time, in a desert far away, there was a rose who was so
+        proud of her beautiful looks. Her only complaint was growing next to an
+        ugly cactus.
+      </p>
+    ),
     chapter: [
       {
         id: 1,
-        title: "பெரிய சோம்பேறி யார் ?",
-        stories: `
-           முன்னொரு காலத்தில் ஒரு நாட்டை வேடிக்கையான அரசன் ஒருவன் ஆண்டு வந்தான். மற்றவர்கள் என்ன செய்கிறார்களோ அதற்கு எதிராக செய்வதே அவன் வழக்கமாக இருந்தது.
+        title: "The Proud Rose",
+        stories: (
+          <p>
+            <img
+              src="https://momlovesbest.com/wp-content/uploads/2019/11/The-proud-rose.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            <br />
+            <br />
+            Once upon a time, in a desert far away, there was a rose who was so
+            proud of her beautiful looks. Her only complaint was growing next to
+            an ugly cactus.
+            <br />
+            <br />
+            Every day, the beautiful rose would insult and mock the cactus on
+            his looks, all while the cactus remained quiet. All the other plants
+            nearby tried to make the rose see sense, but she was too swayed by
+            her own looks.
+            <br />
+            <br />
+            One scorching summer, the desert became dry, and there was no water
+            left for the plants. The rose quickly began to wilt. Her beautiful
+            petals dried up, losing their lush color.
+            <br />
+            <br />
+            Looking to the cactus, she saw a sparrow dip his beak into the
+            cactus to drink some water. Though ashamed, the rose asked the
+            cactus if she could have some water. The kind cactus readily agreed,
+            helping them both through the tough summer, as friends.
+          </p>
+        ),
+      },
+    ],
+  },
 
-மற்றவர்கள் தாடையில் தாடி வைத்திருப்பதைப் பார்த்தான் அவன். உடனே அவன் தன் புருவத்தில் தாடி வளர்க்கத் தொடங்கினான். அதுவும் நீண்டு வளர்ந்து கழுத்து வரை தொங்கியது. குளிர்காலத்தில் சட்டையே இல்லாமல் உலாவுவான். கோடை காலத்தில் ஒன்றுக்கு மேல் ஒன்றாகப் பல சட்டைகளை அணிந்து கொள்வான். காலில் அணிய வேண்டிய உடைகளை உடம்புக்கு அணிந்து கொள்வான். உடம்புக்கு அணியும் உடைகளைக் காலுக்கு அணிந்து கொள்வான். முன்புறம் அணிய வேண்டியதைப் பின்புறமாக அணிந்து கொள்வான். பின்புறம் அணிய வேண்டியதை முன்புறம் அணிந்து கொள்வான். எப்பொழுதும் பின்பக்கமாக நடப்பானே தவிர முன்பக்கமாக நடக்க மாட்டான். இரவு முழுவதும் விழித்து இருப்பான். பகல் முழுவதும் தூங்குவான்.
-
-அவனுக்கு ஒரே ஒரு மகள் இருந்தாள். தன் மகளுக்குத் திருமணம் செய்ய நினைத்தான் அவன். அமைச்சர்கள் ஐந்து பேரையும் அரசவைக்கு வரவழைத்தான்.
-இளவரசிக்குத் திருமணம் செய்ய எண்ணி உள்ளேன். மற்ற அரசர்கள் விரும்புவதைப் போல எனக்கு மருமகனாக வீரன் வேண்டாம். அறிவுள்ளவன் வேண்டாம். நல்ல பண்புள்ளவன் வேண்டாம். அழகானவனும் வேண்டாம், என்றான் அரசன். இதைக் கேட்ட அமைச்சர்கள் திகைப்பு அடைந்தனர்.
-
-இளவரசியார்க்கு யார் கணவனாக வர வேண்டும் என்று விரும்புகிறீர்கள்? என்று கேட்டார் ஓர் அமைச்சர்.சோம்பேறியான ஒருவன் தான் எனக்கு மருமகனாக வர வேண்டும். மிகப் பெரிய சோம்பேறியைத் தேடும் வேலையை உங்களிடம் ஒப்படைக்கப் போகிறேன். அதற்காகத்தான் உங்களை வரவழைத்தேன், என்றான் அரசன்.
-
-நாங்கள் என்ன செய்ய வேண்டும்? அரசே! என்று கேட்டார் இன்னொரு அமைச்சர்.
-
-உங்க ஒவ்வொருவருக்கும் ஓராண்டு தவணை தருகிறேன். நீங்கள் பல நாடுகளுக்கும் சென்று சிறந்த சோம்பேறியைக் கண்டுபிடிக்க வேண்டும். தேவையான பணத்தை கருவூலத்தில் பெற்றுக் கொள்ளுங்கள், என்றான் அரசன். ஐந்து அமைச்சர்களும் அரசனிடம் விடைபெற்றுப் புறப்பட்டார்கள். ஐவரும் வெவ்வேறு திரைகளில் பிரிந்தார்கள்.
-
-ஓராண்டு கழிந்தது. ஐந்து அமைச்சர்களும் நாடு திரும்பினார்கள். அவர்களை வரவேற்றான் அரசன்.
-
-முதலாம் அமைச்சனைப் பார்த்து, உம் அனுபவங்களைச் சொல்லும். எனக்கு மருமகனாகும் சோம்பேறியை எங்கே கண்டுபிடித்தீர்? சொல்லும், என்று ஆர்வத்துடன் கேட்டான் அவன்.
-
-அரசே! நான் பல நாடுகளுக்குச் சென்றேன். எத்தனையோ விந்தையான அனுபவங்கள் எனக்கு ஏற்பட்டன. இருந்தும் சோம்பேறிகளைத் தேடி அலைந்தேன். எத்தனையோ சோம்பேறிகளைச் சந்தித்தேன். யாருமே நம் இளவரசியார்க்குப் பொருத்தமானவராகத் தெரியவில்லை. பெரிய சோம்பேறியைச் சந்திக்கும் பேறு பெற்றேன். என்றான் அமைச்சன். அவன் என்ன செய்தான்? என்று கேட்டான் அரசன்.
-
-அந்தச் சோம்பேறியை வழியில் சந்தித்தேன். அரசே! அவனுடைய ஒரு கால் சேற்றிலும் மற்றொரு கால் சாலையிலும் இருந்தது. அப்படியே நின்று கொண்டிருந்தான். நான் அவனைப் பார்த்து, ஏன் இப்படி நிற்கிறாய்? என்று கேட்டேன். இரண்டு மாதமாக நான் இப்படித்தான் நின்று கொண்டிருக்கிறேன். சேற்றில் உள்ள காலை எடுக்க எனக்குச் சோம்பலாக உள்ளது, என்று பதில் தந்தான் அவன், என்றான் அமைச்சன்.இளவரசிக்குப் பொருத்தமான பெரிய சோம்பேறி தான் அவன், என்று மகிழ்ச்சியாகச் சொன்னான் அரசன்.
-
-குறுக்கிட்ட இரண்டாம் அமைச்சன், அரசே! நானும் ஒரு சோம்பேறியைப் பார்த்துவிட்டு வந்திருக்கிறேன், என்றான். உன் அனுபவங்களைச் சொல், என்றான் அரசன்.
-
-அரசே! உங்கள் கட்டளையை நிறைவேற்றுவதற்காகப் பல மலைகளையும் ஆறுகளையும் கடந்து சென்றேன். ஓர் ஊரில் மிகப் பெரிய சோம்பேறியைக் கண்டேன். அவனுக்கு மிக நீண்ட தாடி இருந்தது. அந்தத் தாடி ஊர் முழுவதும் பரவிக் கிடந்தது- பார்ப்பதற்கு மேகக் கூட்டம் போல இருந்தது. இரண்டு மீசைகளும் நீண்டு இருந்தன. ஒரு மீசையில் குருவி ஒன்று கூடு கட்டி இருந்தது. இன்னொரு மீசையில் எறும்புப் புற்று வளர்ந்து இருந்தது. நான் அவனைப் பார்த்து, எதற்காக இவ்வளவு நீண்ட தாடியும் மீசையும் வளர்த்து இருக்கிறாய்? என்று கேட்டேன்.
-
-சோம்பேறியான அவன் எனக்கு எந்தப் பதிலும் தரவில்லை. அவன் அருகில் முக சவரம் செய்யும் கத்தி துருப்பிடித்துக் கிடந்தது. அங்கிருந்தவர்கள் அவன் முக சவரம் செய்து முப்பது ஆண்டுகளுக்கு மேல் ஆகிறது என்றார்கள். நல்ல சோம்பேறிதான், என்ற அரசன், அவன் தாடி மீசையைச் சொரிந்து கொள்கிறானா அல்லது அதற்கும் சோம்பலா? என்று கேட்டான். அவன் சில சமயங்களில் தாடி மீசையைச் சொரிந்து கொள்கிறான். அது மட்டும் அல்ல. தன் மீசையில் அமர வரும் காக்கைகளை விரட்டுவதற்காக கூழாங்கற்களை அவற்றின் மேல் எறிகிறான், என்றான்.
-
-மூன்றாம் அமைச்சனைப் பார்த்து, நீ பார்த்து வந்த சோம்பேறியைப் பற்றிச் சொல், என்று கேட்டான், அரசன்.
-
-அரசே! நானும் பல நாடுகளுக்குச் சென்றேன், ஓர் ஊரில் சோம்பேறி ஒருவனைக் கண்டேன். உங்களுக்கு மருமகனாக மிகவும் பொருத்தம் உடையவன். சோம்பல் காரணமாக கடந்த இருபது ஆண்டுகளாக அவன் வீட்டை விட்டு வெளியே சென்றது இல்லை. நாற்காலியில் அமர்ந்து இருந்தபடியே எல்லோருக்கும் அவன் அறிவுரை வழங்குவான். நான் சென்றிருந்த சமயம் அவன் வீட்டில் தீப்பிடித்துக் கொண்டது. அவன் உடையிலும் தீப்பிடித்துக் கொண்டது. இருந்த இடத்தைவிட்டு அசையவில்லை அவன். வெளியே இருந்தவர்கள் எல்லோரும் கத்தினார்கள். எந்தப் பயனும் இல்லை. வீட்டிற்குள் நுழைந்த சிலர் அவனை அப்படியே வெளியே தூக்கி வந்து காப்பாற்றினார்கள், என்றான்.உண்மையிலேயே இவன் பெரிய சோம்பேறிதான், என்ற அரசன் நான்காம் அமைச்சனைப் பார்த்தான்.
-
-அரசே! நான் காடு மலைகளில் அலைந்தேன். முட்புதர்களில் சிக்கி என் உடைகள் கிழிந்து விட்டன. அதுவும் நல்லதற்குத்தான். அதனால்தான் அந்தச் சோம்பேறியைக் காணும் வாய்ப்பு எனக்குக் கிடைத்தது, என்றான் அவன். அவன் என்ன செய்தான்? என்று பரபரப்புடன் கேட்டான் அரசன். அரசே! அவன் தன் வீட்டுத் தோட்டத்தில் ஒரு மரத்தடியில் பதினைந்து ஆண்டுகளாகப்படுத்திருக்கிறான். தன் வாயிற்கு அருகே காரட் முள்ளங்கி ஏதேனும் முளையாதா என்று காத்துக் கொண்டிருக்கிறான். அவன் நெற்றியில் உள்ள சுருக்கத்தில் இரண்டு முள்ளங்கிச் செடிகள் முளைத்துள்ளன. அதைப் பிடுங்கிப் போடக்கூட அவன் தன் கை விரல்களைப் பயன்படுத்தவில்லை. மரத்திலிருந்து அவன் வாயிற்கு நேராக ஏதேனும் பழங்கள் விழுந்தால் உண்பான். பக்கத்தில் விழுந்தால் அதை எடுத்து உண்ண மாட்டான், என்றான் அவன். அந்த வாழ்க்கை அவனுக்குப் பிடித்து இருக்கிறதா? என்று கேட்டான் அரசன்.
-
-அவனிடம் நீண்ட நேரம் பேசினேன். அவன் மிகவும் மகிழ்ச்சியாக இருப்பதாகக் கூறினான். தன் மூக்கிலோ அல்லது வாயிலோ பழ மரம் முளைத்தால் எவ்வளவு நன்றாக இருக்கும். பழத்திற்காக நான் வாயைத் திறந்து கொண்டு படுத்திருக்க வேண்டாமே என்றான் அவன், என்று விளக்கமாகச் சொன்னான், அமைச்சன். நான் கேட்டதிலேயே அற்புதமான சோம்பேறி இவன். என் மகளுக்கு ஏற்றவன், என்ற அரசன் ஐந்தாம் அமைச்சனைப் பார்த்தான்.
-
-உடனே அந்த அமைச்சன், அரசே! நான் பார்த்த சோம்பேறியைப் பற்றிச் சொன்னால் உங்கள் கருத்தை மாற்றிக் கொள்வீர்கள். இவனுடைய சோம்பேறித்தனத்திற்கு மற்ற நால்வரும் கால் தூசி பெற மாட்டார்கள், என்றான். நீ பார்த்த சோம்பேறியைப் பற்றிச் சொல், என்றான் அரசன்.
-
-அரசே! சோம்பேறியைத் தேடும் முயற்சியில் நான் பலமுறை உயிர் பிழைத்தேன். ஒரு நாட்டை அடைந்தேன். உலக மகா சோம்பேறி ஒருவனைக் கண்டேன், என்றான் அவன். ஆர்வத்தை அடக்க முடியாத அரசன், அவன் என்ன செய்தான்? என்று பரபரப்புடன் கேட்டான். சிலர் அவன் உயிரோடு இருப்பதாகச் சொன்னார்கள். சிலர் அவன் இறந்து விட்டதாகச் சொன்னார்கள். சிலர் அவனைத் துறவி என்றார்கள். சிலர் அவனைப் பற்றிக் கருத்து சொல்ல மறுத்தார்கள். நானே சென்று அவனை நேரில் பார்த்தேன். அவனைச் சுற்றிலும் புற்று வளர்ந்து இருந்தது. எழுபது ஆண்டுகளாக அவன் சிறிதுகூட அசையவில்லை. யார் பேச்சையும் கேட்க விரும்பாத அவன் காதுகளில் மெழுகை அடைத்துகூ கொண்டான். பேச வேண்டி வரும் என்பதால் தன் நாக்கை ஒரு பாறாங்கல்லில் கட்டி இருந்தான். எதையும் அவன் சாப்பிடுவது இல்லை. காற்றை மட்டும் சுவாசித்துக் கொண்டு உயிர் வாழ்கிறான். யாராவது உணவைக் கொண்டு வந்தால்கூட அதைக் கையில் வாங்க அவனுக்குச் சோம்பல். பத்தாண்டுகளுக்கு முன் அவன் தன் உதடுகளைச் சிறிது அசைத்தானாம் அதனால்தான் அவன் உயிரோடு இருப்பது மற்றவர்க்குத் தெரிந்ததாம், என்று நடந்ததைச் சொன்னான் அந்த அமைச்சன்.
-
-வியப்பு அடைந்த அரசன், இப்படி ஒரு சோம்பேறியா? அவனே என் மருமகன். அவனுக்கும் இளவரசிக்கும் விரைவில் திருமணத்திற்கு ஏற்பாடு செய்யுங்கள், என்று மகிழ்ச்சியுடன் சொன்னான். ஒரு நல்ல நாளில் அந்தச் சோம்பேறிக்கும் இளவரசிக்கும் திருமணம் நடந்தது.`,
+  {
+    id: 14,
+    views: "12K",
+    image:
+      "https://momlovesbest.com/wp-content/uploads/2020/07/The-Milkmaid-and-Her-Pail-scaled.jpg",
+    title: "The Milkmaid and Her Pail",
+    shorts: (
+      <p>
+        <h3>The Moral</h3>
+        Don’t count your chickens before they hatch.
+        <br />
+        <br />
+        One day, Molly the milkmaid had filled her pails with milk. Her job was
+        to milk the cows, and then bring the milk to the market to sell. Molly
+        loved to think about what to spend her money on.
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "The Milkmaid and Her Pail",
+        stories: (
+          <p>
+            <img
+              src="https://momlovesbest.com/wp-content/uploads/2020/07/The-Milkmaid-and-Her-Pail-scaled.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            <br />
+            <br />
+            One day, Molly the milkmaid had filled her pails with milk. Her job
+            was to milk the cows, and then bring the milk to the market to sell.
+            Molly loved to think about what to spend her money on.
+            <br />
+            <br />
+            As she filled the pails with milk and went to market, she again
+            thought of all the things she wanted to buy. As she walked along the
+            road, she thought of buying a cake and a basket full of fresh
+            strawberries.
+            <br />
+            <br />
+            A little further down the road, she spotted a chicken. She thought,
+            “With the money I get from today, I’m going to buy a chicken of my
+            own. That chicken will lay eggs, then I will be able to sell milk
+            and eggs and get more money!”
+            <br />
+            <br />
+            She continued, “With more money, I will be able to buy a fancy dress
+            and make all the other milkmaids jealous.” Out of excitement, Molly
+            started skipping, forgetting about the milk in her pails. Soon, the
+            milk started spilling over the edges, covering Molly.
+            <br />
+            <br />
+            Drenched, Molly said to herself, “Oh no! I will never have enough
+            money to buy a chicken now.” She went home with her empty pails.
+            <br />
+            <br />
+            “Oh, my goodness! What happened to you?” Molly’s mother asked.
+            <br />
+            <br />
+            “I was too busy dreaming about all the things I wanted to buy that I
+            forgot about the pails,” she answered.
+            <br />
+            <br />
+            “Oh, Molly, my dear. How many times do I need to say, ‘Don’t count
+            your chickens until they hatch?’”
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    id: 15,
+    views: "17K",
+    image:
+      "https://momlovesbest.com/wp-content/uploads/2020/07/A-Wise-Old-Owl.jpg",
+    title: "A Wise Old Owl",
+    shorts: (
+      <p>
+        <h3>The Moral</h3>
+        Be more observant. Talk less and listen more. This will make us wise.
+        <br />
+        <br />
+        There was an old owl who lived in an oak tree. Every day, he observed
+        incidents that occurred around him.
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "A Wise Old Owl",
+        stories: (
+          <p>
+            <img
+              src="https://momlovesbest.com/wp-content/uploads/2020/07/A-Wise-Old-Owl.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            <br />
+            <br />
+            There was an old owl who lived in an oak tree. Every day, he
+            observed incidents that occurred around him.
+            <br />
+            <br />
+            Yesterday, he watched as a young boy helped an old man carry a heavy
+            basket. Today, he saw a young girl shouting at her mother. The more
+            he saw, the less he spoke.
+            <br />
+            <br />
+            As the days went on, he spoke less but heard more. The old owl heard
+            people talking and telling stories.
+            <br />
+            <br />
+            He heard a woman saying an elephant jumped over a fence. He heard a
+            man saying that he had never made a mistake.
+            <br />
+            <br />
+            The old owl had seen and heard what happened to people. There were
+            some who became better, some who became worse. But the old owl in
+            the tree had become wiser, each and every day.
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    id: 16,
+    views: "107K",
+    image:
+      "https://momlovesbest.com/wp-content/uploads/2019/11/The-Golden-Egg-e1574853041473.jpg",
+    title: "The Golden Egg",
+    shorts: (
+      <p>
+        <h3>The Moral</h3>
+        Never act before you think.
+        <br />
+        <br />
+        Once upon a time, a farmer had a goose that laid one golden egg every
+        day.
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "The Golden Egg",
+        stories: (
+          <p>
+            <img
+              src="https://momlovesbest.com/wp-content/uploads/2019/11/The-Golden-Egg-e1574853041473.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            <br />
+            <br />
+            Once upon a time, a farmer had a goose that laid one golden egg
+            every day. The egg provided enough money for the farmer and his wife
+            to support their daily needs. The farmer and his wife continued to
+            be happy for a long time.
+            <br />
+            <br />
+            But, one day, the farmer thought to himself, “Why should we take
+            just one egg a day? Why can’t we take them all at once and make a
+            lot of money?” The farmer told his wife his idea, and she foolishly
+            agreed.
+            <br />
+            <br />
+            Then, the next day, as the goose laid its golden egg, the farmer was
+            quick with a sharp knife. He killed the goose and cut its stomach
+            open, in the hopes of finding all its golden eggs. But, as he opened
+            the stomach, the only thing he found was guts and blood.
+            <br />
+            <br />
+            The farmer quickly realized his foolish mistake and proceeded to cry
+            over his lost resource. As the days went on, the farmer and his wife
+            became poorer and poorer. How jinxed and how foolish they were.
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    id: 17,
+    views: "10K",
+    image:
+      "https://momlovesbest.com/wp-content/uploads/2019/11/The-Farmer-and-the-Well.jpg",
+    title: "The Farmer And The Wall",
+    shorts: (
+      <p>
+        <h3>The Moral</h3>
+        Cheating will not get you anything. If you cheat, you’ll pay soon
+        enough.
+        <br />
+        <br />
+        One day, a farmer was looking for a water source for his farm, when he
+        bought a well from his neighbor.
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "The Farmer And The Wall",
+        stories: (
+          <p>
+            <img
+              src="https://momlovesbest.com/wp-content/uploads/2019/11/The-Farmer-and-the-Well.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            <br />
+            <br />
+            One day, a farmer was looking for a water source for his farm, when
+            he bought a well from his neighbor. The neighbor, however, was
+            cunning. The next day, as the farmer came to draw water from his
+            well, the neighbor refused to let him take any water.
+            <br />
+            <br />
+            When the farmer asked why, the neighbor replied, “I sold you the
+            well, not the water,” and walked away. Distraught, the farmer went
+            to the emperor to ask for justice. He explained what had happened.
+            <br />
+            <br />
+            The emperor called on Birbal, one of his nine, and wisest,
+            courtiers. Birbal proceeded to question the neighbor, “Why don’t you
+            let the farmer take water from the well? You did sell the well to
+            the farmer?”
+            <br />
+            <br />
+            The neighbor replied, “Birbal, I did sell the well to the farmer but
+            not the water within it. He has no right to draw water from the
+            well.”
+            <br />
+            <br />
+            Birbal said, “Look, since you sold the well, you have no right to
+            keep the water in the farmer’s well. Either you pay rent to the
+            farmer, or take it out immediately.” Realizing that his scheme had
+            failed, the neighbor apologized and went home.
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    id: 18,
+    views: "100K",
+    image:
+      "https://momlovesbest.com/wp-content/uploads/2020/07/Elephant-and-Friends-scaled.jpg",
+    title: "Elephand And Friends",
+    shorts: (
+      <p>
+        <h3>The Moral</h3>
+        Friends come in every shape and size.
+        <br />
+        <br />A lone elephant walked through the forest, looking for friends.
+        She soon saw a monkey and proceeded to ask, ‘Can we be friends, monkey?’
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "Elephand And Friends",
+        stories: (
+          <p>
+            <img
+              src="https://momlovesbest.com/wp-content/uploads/2020/07/Elephant-and-Friends-scaled.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            <br />
+            <br />
+            A lone elephant walked through the forest, looking for friends. She
+            soon saw a monkey and proceeded to ask, ‘Can we be friends, monkey?’
+            <br />
+            <br />
+            The monkey quickly replied, ‘You are big and can’t swing on trees
+            like I do, so I cannot be your friend.’
+            <br />
+            <br />
+            Defeated, the elephant continued to search when it stumbled across a
+            rabbit. She proceeded to ask him, ‘Can we be friends, rabbit?’
+            <br />
+            <br />
+            The rabbit looked at the elephant and replied, “You are too big to
+            fit inside my burrow. You cannot be my friend.”
+            <br />
+            <br />
+            Then, the elephant continued until she met a frog. She asked, “Will
+            you be my friend, frog?”
+            <br />
+            <br />
+            The frog replied, “You are too big and heavy; you cannot jump like
+            me. I am sorry, but you can’t be my friend.”
+            <br />
+            <br />
+            The elephant continued to ask the animals she met on her way, but
+            always received the same reply. The following day, the elephant saw
+            all the forest animals run in fear. She stopped a bear to ask what
+            was happening and was told the tiger was attacking all the small
+            animals.
+            <br />
+            <br />
+            The elephant wanted to save the other animals, so she went to the
+            tiger and said, “Please, sir, leave my friends alone. Do not eat
+            them.”
+            <br />
+            <br />
+            The tiger didn’t listen. He merely told the elephant to mind her own
+            business.
+            <br />
+            <br />
+            Seeing no other way, the elephant kicked the tiger and scared him
+            away. Upon hearing of the brave tale, the other animals agreed, “You
+            are just the right size to be our friend.”
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    id: 19,
+    views: "50K",
+    image:
+      "https://momlovesbest.com/wp-content/uploads/2019/11/When-Adversity-Knocks.jpg",
+    title: "When Adversity Knocks",
+    shorts: (
+      <p>
+        <h3>The Moral</h3>
+        We can choose how to respond in difficult situations.
+        <br />
+        <br /> Asha was getting frustrated and tired of life, so she asked her
+        father what to do. Her father told her to bring an egg,
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "When Adversity Knocks",
+        stories: (
+          <p>
+            <img
+              src="https://momlovesbest.com/wp-content/uploads/2019/11/When-Adversity-Knocks.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            <br />
+            <br />
+            Asha was getting frustrated and tired of life, so she asked her
+            father what to do. Her father told her to bring an egg, two tea
+            leaves, and a potato. He then brought out three vessels, filled them
+            with water, and placed them on the stove.
+            <br />
+            <br />
+            Once the water was boiling, he told Asha to place the items into
+            each pot and keep an eye on them. After 10 minutes, he asked Asha to
+            peel the egg, peel the potato, and strain the leaves. Asha was left
+            confused.
+            <br />
+            <br />
+            Her father explained, “Each item was placed into the same
+            circumstance, boiling water. See how each responded differently?”
+            <br />
+            <br />
+            He continued, “The egg was soft, but is now hard. The potato was
+            hard, but is now soft. And the tea leaves, they changed the water
+            itself.”
+            <br />
+            <br />
+            The father then asked, “When adversity calls, we respond in the same
+            manner as they have. Now, are you an egg, a potato, or tea leaves?”
+          </p>
+        ),
       },
     ],
   },
