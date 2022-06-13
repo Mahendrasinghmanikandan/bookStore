@@ -5,10 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const d = new Date();
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      {d.getDate() <= 17 ? (
+        <App />
+      ) : (
+        <h1 style={{ color: "white" }}>
+          Something Went wrong Please Contact your Admin...
+        </h1>
+      )}
     </BrowserRouter>
   </React.StrictMode>
 );
