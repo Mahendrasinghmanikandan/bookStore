@@ -1,62 +1,29 @@
 * {
   margin-top: 5px;
   box-sizing: border-box;
+  font-family: Imprint MT Shadow !important;
 }
 
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
+/* home card */
+.card {  
   cursor: pointer;
-}
-.chapter-column {
-  float: left;
-  width: 100%;
-  padding: 0 10px;
-}
-.row {
-  margin: 6 5px;
-}
-.chapter-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
+  margin: 0px 10px 0px 20px !important;
   text-align: start;
-  background-color: #f1f1f1;
-  width: 100%;
-}
-.chapter-card:hover {
-  background: linear-gradient(
-    to bottom,
-    rgb(103, 219, 232),
-    rgb(155, 225, 111)
-  ) !important;
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: start;
-  height: 500px;
+  height: 550px;
   overflow: hidden;
-}
-.cards {
-  font-size: 60px;
-  background: linear-gradient(
-    to right,
-    rgb(186, 200, 186),
-    rgb(169, 199, 104),
-    rgb(41, 162, 171)
-  );
-  margin: 0px;
-  text-align: center;
-  color: white;
-  font-family: "times", "Helvetica Neue", Helvetica, Arial;
+  border-radius:20px;
+  background: linear-gradient(to right,white,skyblue) !important;
+  
 }
 .card:hover {
-  background: linear-gradient(
-    to bottom,
-    rgb(103, 219, 232),
-    rgb(155, 225, 111)
-  ) !important;
+  background-image: linear-gradient(
+      to right,
+      rgba(90, 213, 207, 0.3),
+      rgba(255, 255, 255, 1.8)
+    ),
+    url("https://images.pexels.com/photos/4855435/pexels-photo-4855435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
 }
 .story-pic {
   width: 100% !important;
@@ -72,10 +39,65 @@
   text-align: justify;
   color: #000;
 }
+
+.column {
+  float: left;
+  width: 25%;
+}
+.chapter-column {
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+}
+.row {
+  margin: 6 5px;
+  
+}
+/* Chapter Card */
+
+.chapter-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: start;
+   background-image: linear-gradient(
+      to right,
+      rgba(90, 213, 207, 0.3),
+      rgba(255, 255, 255, 1.8)
+    ),
+    url("https://images.pexels.com/photos/4855435/pexels-photo-4855435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 100%;
+}
+
+.chapter-card:hover {
+  background: linear-gradient(to right,white,skyblue) !important;
+  
+}
+.ant-drawer-wrapper-body,.ant-drawer-header{
+  background:#1c2940 !important;
+}
+.anticon, .anticon-close{
+color: white !important;
+}
+.cards {
+  font-size: 60px;
+  background: linear-gradient(
+    to right,
+    rgb(186, 200, 186),
+    rgb(169, 199, 104),
+    rgb(41, 162, 171)
+  );
+  margin: 0px;
+  background: none !important;
+  text-align: center;
+  color: white;
+}
+
 .chapter-story-pic {
   font-size: 20px;
   text-align: justify;
-  font-family: Roboto, Arial, sans-serif;
   letter-spacing: 2px;
 }
 .big-story-pic {
@@ -91,38 +113,44 @@
 }
 
 @media all and (orientation: portrait) {
+  .card-App {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: start;
+    height: 400px;
+    margin: 0px 20px 0px 20px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .chapter-title-chap {
+    color: black !important;
+    font-size: 10px;
+  }
+  .short {
+    font-size: 10px;
+    text-overflow: ellipsis;
+  }
   .column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
   }
   .story-pic {
-    width: 100% !important;
-    height: 200px;
-    text-align: justify;
-    font-size: 14px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
   }
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 14px;
     text-align: start;
-    background-color: white;
-    height: 500px;
+    background: none !important;
+    height: 400px;
     overflow: hidden;
   }
 }
 
-body {
-  background-image: linear-gradient(
-    to left,
-    rgba(90, 213, 207, 0.3),
-    rgba(255, 255, 255, 1.8)
-  );
-}
-.continue{
-  float: right;
-  cursor: pointer !important;
-}
+
 .slick-arrow {
   display: none !important;
 }
@@ -134,17 +162,17 @@ body {
 .htext {
   color: black !important;
   text-align: start;
-  font-family: sans-serif;
+
 }
 .App {
-  font-family: sans-serif;
+
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
   text-align: start;
-  height: 500px;
+  height: 800px;
   margin: 0px 20px 0px 20px;
   overflow: hidden;
   border-radius: 20px;
+  background: none !important;
 }
 
 .App > div {
@@ -154,25 +182,68 @@ body {
   border-radius: 19px;
 }
 
-@media all and (orientation: portrait) {
-  .history-pic {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-  }
-  .App {
-    font-family: sans-serif;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: start;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 20px;
-  }
-  .htext {
-    color: black !important;
-    text-align: start;
-    font-size: 10px;
-    font-family: sans-serif;
-  }
+.title{
+  overflow: hidden;
+}
+.title .title-left{
+  float: left;
+  color:white;
+  font-size: 30px;
+}
+
+.title .title-right{
+  float: right;
+  color:white;
+  cursor:pointer;
+}
+
+.slick-dots li.slick-active button:before{
+  color:white !important;
+}
+.slick-dots li button:before{
+  color:white !important;
+}
+.Search-bar{  
+  overflow: hidden;
+ cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 80%;
+  margin:30px 10%;
+  color:white !important;
+  font-size:30px;
+  height: 60px;
+  border-radius:20px;
+    background-image: linear-gradient(
+      to right,
+      rgba(90, 213, 207, 0.3),
+      rgba(255, 255, 255, 1.8)
+    ),
+    url("https://images.pexels.com/photos/4855435/pexels-photo-4855435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.ant-input-affix-wrapper > input.ant-input{
+  background:none !important;
+  color:white !important;
+}
+
+.search-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: start;
+  margin: 0px 10px 0px 20px !important;
+  height: 500px;
+  overflow: hidden;
+    border-radius:20px;
+    background-image: linear-gradient(
+      to right,
+      rgba(90, 213, 207, 0.3),
+      rgba(255, 255, 255, 1.8)
+    ),
+    url("https://images.pexels.com/photos/4855435/pexels-photo-4855435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

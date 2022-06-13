@@ -3,6 +3,7 @@ const headTitle = [
   {
     id: 1,
     views: "20K",
+    language: "english",
     image:
       "https://learnenglish-new.com/wp-content/uploads/2020/12/Easy-English-short-stories-pdf-CHAPTER-1-%E2%80%93-FAMILY-768x449.png",
     title: "Robinson Crusoe",
@@ -197,6 +198,7 @@ const headTitle = [
   {
     id: 2,
     views: "10K",
+    language: "english",
     image:
       "https://verilymag.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTQ1Mjk4NjkwNDczNDY5NDA5/the-little-prince.jpg",
     title: "The Little Prince",
@@ -385,6 +387,7 @@ const headTitle = [
   {
     id: 3,
     views: "50K",
+    language: "english",
     image:
       "https://learnenglish-new.com/wp-content/uploads/2021/09/Rich-Man-Poor-Man.png",
     title: "Rich Man Poor Man",
@@ -704,6 +707,7 @@ const headTitle = [
   {
     id: 10,
     views: "40K",
+    language: "english",
     image:
       "https://momlovesbest.com/wp-content/uploads/2019/11/The-Boy-Who-Cried-Wolf.jpg",
     title: "The Boy Who Cried Wolf",
@@ -781,6 +785,7 @@ const headTitle = [
   {
     id: 4,
     views: "7K",
+    language: "english",
     image:
       "https://learnenglish-new.com/wp-content/uploads/2021/10/English-love-story-Lost-love..jpg",
     title: "Lost Love",
@@ -881,6 +886,7 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
   {
     id: 11,
     views: "40K",
+    language: "english",
     image:
       "https://momlovesbest.com/wp-content/uploads/2020/07/The-Golden-Touch.jpg",
     title: "The Golden Touch",
@@ -939,6 +945,7 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
   {
     id: 8,
     views: "40K",
+    language: "tamil",
     image: "https://i.ytimg.com/vi/jjHgUn59MZE/maxresdefault.jpg",
     title: "சாகாத வரம்",
     shorts: `வையாபுரி பட்டினம் என்ற நகரம் கடற்கரை ஓரத்தில் அமைந்திருந்தது.
@@ -1075,6 +1082,7 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
   {
     id: 9,
     views: "20K",
+    language: "tamil",
     image:
       "https://4.bp.blogspot.com/-qt4RjLlyehE/UgkqjExOE9I/AAAAAAAAIc0/hJ7RaDhZNDk/s1600/Mulla-nasruddin-duck-soup.jpg",
     title: "மீன் பிடித்த முல்லா",
@@ -1139,6 +1147,7 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
   {
     id: 7,
     views: "70K",
+    language: "tamil",
     image: "https://thelogicalindian.com/h-upload/2020/01/27/149287-15.jpeg",
     title: "பெரிய சோம்பேறி யார் ?",
     shorts: `முன்னொரு காலத்தில் ஒரு நாட்டை வேடிக்கையான அரசன் ஒருவன் ஆண்டு வந்தான். மற்றவர்கள் என்ன செய்கிறார்களோ அதற்கு எதிராக செய்வதே அவன் வழக்கமாக இருந்தது.`,
@@ -1314,6 +1323,7 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
   {
     id: 12,
     views: "10K",
+    language: "english",
     image:
       "https://momlovesbest.com/wp-content/uploads/2020/07/The-Fox-and-the-Grapes-scaled.jpg",
     title: "The Fox And The Grapes",
@@ -1369,6 +1379,7 @@ She said goodbye to me at the door. Her face was very sad, and I was sad, too. I
   {
     id: 5,
     views: "20K",
+    language: "english",
     image:
       "https://learnenglish-new.com/wp-content/uploads/2021/10/Love-story-book-pdf-in-english-The-Girl-with-Red-Hair.-3.png",
     title: "The Girl With Red Hair",
@@ -1546,6 +1557,7 @@ I don’t really want to go, but I don’t want to stay at home and do nothing. 
   {
     id: 6,
     views: "80K",
+    language: "english",
     image:
       "https://learnenglish-new.com/wp-content/uploads/2021/10/The-Fisherman-and-His-Soul-Books-For-Elementary-Levels.png",
     title: "The Fisherman and His Soul",
@@ -1697,6 +1709,7 @@ There was a man near a rock. He wore elegant Spanish clothes. This man watched t
   {
     id: 13,
     views: "10K",
+    language: "english",
     image:
       "https://momlovesbest.com/wp-content/uploads/2019/11/The-proud-rose.jpg",
     title: "The Proud Rose",
@@ -1753,6 +1766,7 @@ There was a man near a rock. He wore elegant Spanish clothes. This man watched t
   {
     id: 14,
     views: "12K",
+    language: "english",
     image:
       "https://momlovesbest.com/wp-content/uploads/2020/07/The-Milkmaid-and-Her-Pail-scaled.jpg",
     title: "The Milkmaid and Her Pail",
@@ -1824,6 +1838,7 @@ There was a man near a rock. He wore elegant Spanish clothes. This man watched t
   {
     id: 15,
     views: "17K",
+    language: "english",
     image:
       "https://momlovesbest.com/wp-content/uploads/2020/07/A-Wise-Old-Owl.jpg",
     title: "A Wise Old Owl",
@@ -1878,6 +1893,7 @@ There was a man near a rock. He wore elegant Spanish clothes. This man watched t
   {
     id: 16,
     views: "107K",
+    language: "english",
     image:
       "https://momlovesbest.com/wp-content/uploads/2019/11/The-Golden-Egg-e1574853041473.jpg",
     title: "The Golden Egg",
@@ -1933,6 +1949,7 @@ There was a man near a rock. He wore elegant Spanish clothes. This man watched t
   {
     id: 17,
     views: "10K",
+    language: "english",
     image:
       "https://momlovesbest.com/wp-content/uploads/2019/11/The-Farmer-and-the-Well.jpg",
     title: "The Farmer And The Wall",
@@ -1994,6 +2011,7 @@ There was a man near a rock. He wore elegant Spanish clothes. This man watched t
   {
     id: 18,
     views: "100K",
+    language: "english",
     image:
       "https://momlovesbest.com/wp-content/uploads/2020/07/Elephant-and-Friends-scaled.jpg",
     title: "Elephand And Friends",
@@ -2068,8 +2086,9 @@ There was a man near a rock. He wore elegant Spanish clothes. This man watched t
     ],
   },
   {
-    id: 19,
+    id: 21,
     views: "50K",
+    language: "english",
     image:
       "https://momlovesbest.com/wp-content/uploads/2019/11/When-Adversity-Knocks.jpg",
     title: "When Adversity Knocks",
@@ -2118,6 +2137,158 @@ There was a man near a rock. He wore elegant Spanish clothes. This man watched t
             <br />
             The father then asked, “When adversity calls, we respond in the same
             manner as they have. Now, are you an egg, a potato, or tea leaves?”
+          </p>
+        ),
+      },
+    ],
+  },
+
+  {
+    id: 19,
+    views: "50K",
+    language: "tamil",
+    image:
+      "https://pbs.twimg.com/profile_images/1124504092707975168/wj5LT4nG_400x400.jpg",
+    title: "பொக்கிஷம் ",
+    shorts: (
+      <p>
+        பாலைவனத்தின் ஒரு குறிப்பிட்ட பகுதிக்கு காலையில் சென்று தூரத்தில் உள்ள
+        மலையைப் பார்த்துக் கொண்டு நின்றால் கீழே விழும் அவனது நிழலுக்கு அடியில்
+        ஒரு பொக்கிஷம் உள்ளது என்று ஒருவன் கேள்விப்பட்டான். உடனே அவன் காலையில்
+        குறிப்பிட்ட இடத்தை அடைந்தான். மணலின் மீது அவன் நிழல் நீண்டு மெல்லியதாக
+        விழுந்தது.
+        <br />
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "பொக்கிஷம்",
+        stories: (
+          <p>
+            <img
+              src="https://pbs.twimg.com/profile_images/1124504092707975168/wj5LT4nG_400x400.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            பாலைவனத்தின் ஒரு குறிப்பிட்ட பகுதிக்கு காலையில் சென்று தூரத்தில்
+            உள்ள மலையைப் பார்த்துக் கொண்டு நின்றால் கீழே விழும் அவனது நிழலுக்கு
+            அடியில் ஒரு பொக்கிஷம் உள்ளது என்று ஒருவன் கேள்விப்பட்டான்.
+            <br />
+            <br />
+            உடனே அவன் காலையில் குறிப்பிட்ட இடத்தை அடைந்தான். மணலின் மீது அவன்
+            நிழல் நீண்டு மெல்லியதாக விழுந்தது. பொக்கிஷத்தை பெற அவன் மண லைத்
+            தோண்ட ஆரம்பித்தான். அவன் தோண்ட… தோண்ட… சூரியன் மேலெ ழுந்து
+            கொண்டிருந்தது. அவனது நிழல் சுருங்கி கொண்டே இருந்தது.
+            <br />
+            <br />
+            அவன், தோண்டிக் கொண்டே இருந்தான். நண்பகலில் அவன் நிழல் அவன்
+            காலடிக்குள் நுழைந்து கொண் டது. நிழலே இல்லை.
+            <br />
+            <br />
+            அவன் ஏமாற் றத்தால் அழுது புலம்பினான். அப்பொ ழுது அவ்வழியே வந்த ஒரு
+            பெரியவர் அவன் செயல் கண்டு சிரித்தார். அவன் அவரைப் பார்த்தான். அவர்
+            கூறினார்.
+            <br />
+            <br />
+            இப்போதுதான் உன் நிழல். பொக்கிஷம் இருக்கும் சரியான இடத்தைக் காண்
+            பிக்கிறது. அது உனக்குள்ளே இருக்கி றது.
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    id: 20,
+    views: "50K",
+    language: "tamil",
+    image: "https://thumbs.gfycat.com/SpicySelfishKid-mobile.jpg",
+    title: "அடிமையானக் குதிரை ",
+    shorts: (
+      <p>
+        ஒரு குதிரைக்கும், கலைமானுக் கும் இடையில் சிறு பகை ஏற்பட்டதால் அக்கலைமானை
+        ஒழித்துக் கட்ட எண் ணியக் குதிரை ஒரு மனிதனின் உத வியை நாடியது.
+        <br />
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "அடிமையானக் குதிரை",
+        stories: (
+          <p>
+            <img
+              src="https://thumbs.gfycat.com/SpicySelfishKid-mobile.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            ஒரு குதிரைக்கும், கலைமானுக் கும் இடையில் சிறு பகை ஏற்பட்டதால்
+            அக்கலைமானை ஒழித்துக் கட்ட எண் ணியக் குதிரை ஒரு மனிதனின் உத வியை
+            நாடியது.
+            <br />
+            அதன் வேண்டுகோளை ஏற்ற மனிதன் குதிரைக்குச் சேணமும், கடிவாளமும்
+            போட்டான். அதன் மீது சவாரி செய்து கலைமானை விரட்டிப் பிடித்துக்
+            கொன்றான்.
+            <br />
+            தனது பகைவன் ஒழிந்ததைக் கண்டு மகிழ்ந்த குதிரைக் கனைத் தது. தன்
+            எதிரியை ஒழித்த மனிதனுக்கு நன்றி கூறியது.
+            <br />
+            தன் கடிவாளத்தை நீக் கித் தன்னை விடுவிக்கும்படி வேண்டி யது. குதிரையே,
+            உன்னை விடுவிப்பதா! அது முடியவே முடியாது.
+            <br />
+            நான் வசதியாகச் சவாரி செய்ய நீ எனக்கு மிகவும் பயன்படுவாய். ஆகை யால்
+            உன்னை விடுவிக்கவே மாட் டேன் என்று கூறிச் சிரித்தான்.
+            <br />
+            அன்று முதல் குதிரை, மனிதனுக்கு அடிமையாக இருக்கிறது. குதிரையின்
+            வஞ்சம் தீர்ந் தது. ஆனால் அது தன் சுதந்திரத்தினை இழந்து அடிமையாகவே
+            இருக்க வேண் டியதாயிற்று.
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    id: 24,
+    views: "50K",
+    language: "tamil",
+    image:
+      "https://i.pinimg.com/originals/97/47/cd/9747cdafc29075d10be0d4ad0de37902.jpg",
+    title: "உதவிக்குக் கிடைத்தப் பரிசு",
+    shorts: (
+      <p>
+        ஒரு நாள் பாம்பு ஒன்று குளிர் காலப் பனியில் விரைத்து சுருண்டு கிடந்தது.
+        அந்த சமயத்தில் அவ்வழியே வந்த குடியானவன் அப்பாம்பிற்கு உதவ நினைத்து
+        அப்பாம்பினை எடுத்து தன் மார்போடு அணைத்துக் கொண்டான்.
+        <br />
+      </p>
+    ),
+    chapter: [
+      {
+        id: 1,
+        title: "உதவிக்குக் கிடைத்தப் பரிசு",
+        stories: (
+          <p>
+            <img
+              src="https://i.pinimg.com/originals/97/47/cd/9747cdafc29075d10be0d4ad0de37902.jpg"
+              width="100%"
+              height="400px"
+            ></img>
+            ஒரு நாள் பாம்பு ஒன்று குளிர் காலப் பனியில் விரைத்து சுருண்டு
+            கிடந்தது. அந்த சமயத்தில் அவ்வழியே வந்த குடியானவன் அப்பாம்பிற்கு உதவ
+            நினைத்து அப்பாம்பினை எடுத்து தன் மார்போடு அணைத்துக் கொண்டான்.
+            <br />
+            <br />
+            குடியானவனுடைய உடல் சூடு பட்டதும், பாம்பு மெல்ல மெல்ல உணர்வு பெற்
+            றது. அதற்கு நன்றாக உணர்வு வந்ததும், அது தன்னைக் காப்பாற்றிய குடியான
+            வன் மார்பைப் பலமாகக் கடித்தது.
+            <br />
+            <br />
+            பாம்பின் நஞ்சு ஏறி உயிர் போகும் நிலையில் இருந்த குடியானவன் தன்
+            செய்கைக்காக வருந்தினான்
+            <br />
+            <br />. குடியான வன் அப்பாம்பைப் பார்த்து உன் குணம் தெரிந்தும் நான்
+            உனக்கு உதவி செய்த தற்கு எனக்கு மிகச்சரியான தண்டனை கிடைத்திருக்கிறது
+            என்றான்.
           </p>
         ),
       },

@@ -4,39 +4,48 @@ import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { motion } from "framer-motion";
 import { Carousel } from "antd";
-
+import CarosalItems from "./carosal";
 const Navbar = () => {
   return (
     <>
       <>
-        <Carousel className="Carousel" effect="fade">
-          <motion.div
-            whileHover={{
-              scale: 0.44,
-              transition: { duration: 1 },
-            }}
-          >
-            <h1 className="hero-section">
-              A reader lives a thousand lives before he dies...
-              <br />
-              The man who never reads lives only one.
-            </h1>
-          </motion.div>
-        </Carousel>
         <nav className="main-nav">
-          <motion.div
-            whileHover={{
-              scale: 15,
-              transition: { duration: 2 },
-            }}
-          >
-            <img
-              width="70px"
-              height="70px"
-              src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/cd1c9a80364113.5cdec491b07d9.gif"
-            ></img>
-          </motion.div>
+          <div className="header-menu">
+            <a href="#Tamil"> Tamil</a>
+            <a href="#English"> English</a>
+            <a href="#Popular"> Popular</a>
+            <a href="#Random"> Random</a>
+            <a href="#Comedy"> Comedy</a>
+          </div>
         </nav>
+        <Carousel
+          autoplay
+          dotPosition="right"
+          className="Carousel"
+          effect="fade"
+        >
+          {CarosalItems.map((res) => {
+            return (
+              <motion.div
+                whileHover={{
+                  scale: 0.44,
+                  transition: { duration: 1 },
+                }}
+              >
+                <img
+                  src={res.img}
+                  width="400px"
+                  height="500px"
+                  style={{ float: "right" }}
+                ></img>
+                <br />
+                <br />
+                <h1 className="hero-section">{res.h1context}</h1>
+              </motion.div>
+            );
+          })}
+        </Carousel>
+
         <div></div>
       </>
     </>

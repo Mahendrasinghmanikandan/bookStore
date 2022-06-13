@@ -1,13 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 import "./index.css";
-import { Button, Tooltip, Modal } from "antd";
-import { MinusOutlined, PlusOutlined } from "@ant-design/icons";
 import _ from "lodash";
 import { motion } from "framer-motion";
 import headTitle from "../Contents/headTitle";
+
 const Chapter = () => {
-  const [visible, setVisible] = useState(false);
   const targetId = window.location.href.split("/")[4];
   const newChapter = headTitle.filter((res) => {
     return res.id === Number(targetId);
@@ -35,22 +33,6 @@ const Chapter = () => {
             <>
               <div class="row">
                 <div class="chapter-column">
-                  <Tooltip title="Buy Now For Read More..">
-                    <Button
-                      className="card-botton"
-                      type="default"
-                      shape="circle"
-                      icon={<PlusOutlined />}
-                    />
-                  </Tooltip>
-                  <Tooltip title="Buy Now For Read More..">
-                    <Button
-                      className="card-botton"
-                      type="default"
-                      shape="circle"
-                      icon={<MinusOutlined />}
-                    />
-                  </Tooltip>
                   <br />
 
                   <motion.div
